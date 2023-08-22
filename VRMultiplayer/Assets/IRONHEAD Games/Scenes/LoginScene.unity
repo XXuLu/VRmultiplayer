@@ -894,6 +894,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4259889451999880532, guid: c459838926b437644ae8f8f0022d1696, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4259889451999880535, guid: c459838926b437644ae8f8f0022d1696, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -936,7 +940,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4259889452471046910, guid: c459838926b437644ae8f8f0022d1696, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259889452488477465, guid: c459838926b437644ae8f8f0022d1696, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4259889452604965265, guid: c459838926b437644ae8f8f0022d1696, type: 3}
       propertyPath: m_OnSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -963,8 +971,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4259889452851786776, guid: c459838926b437644ae8f8f0022d1696, type: 3}
+      propertyPath: m_text
+      value: Enter Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259889452851786776, guid: c459838926b437644ae8f8f0022d1696, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    - target: {fileID: 4259889452851786776, guid: c459838926b437644ae8f8f0022d1696, type: 3}
       propertyPath: m_textAlignment
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4259889452851786776, guid: c459838926b437644ae8f8f0022d1696, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+    - target: {fileID: 4259889452851786776, guid: c459838926b437644ae8f8f0022d1696, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
       objectReference: {fileID: 0}
     - target: {fileID: 4259889452851786776, guid: c459838926b437644ae8f8f0022d1696, type: 3}
       propertyPath: m_VerticalAlignment
